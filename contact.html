@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Kirim Email</title>
+</head>
+<body>
+    <form action="proses_form.php" method="post">
+        <label for="to">Tujuan:</label>
+        <input type="email" name="to" id="to" required><br>
+
+        <label for="subject">Subjek:</label>
+        <input type="text" name="subject" id="subject" required><br>
+
+        <label for="message">Pesan:</label>
+        <textarea name="message" id="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Kirim Email">
+    </form>
+</body>
+</html>
